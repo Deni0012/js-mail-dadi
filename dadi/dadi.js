@@ -12,4 +12,13 @@ if (userDado < 1 || userDado > 6 || isNaN(userDado)) {
 } else {
     console.log(`Hai tirato: ${userDado}`);
     console.log(`Il computer ha tirato: ${computerDado}`);
+    
+    // Determiniamo il vincitore
+    if (userDado > computerDado) {
+        console.log("Complimenti! Hai vinto!");
+    } else if (userDado < computerDado) {
+        console.log("Il computer ha vinto! Ritenta!");
+    } else {
+        console.log("Pareggio!");
+    }
 }
