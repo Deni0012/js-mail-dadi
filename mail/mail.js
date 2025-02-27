@@ -11,3 +11,13 @@ const emailList = [
 
 // Chiedere all'utente la sua email
 const userEmail = prompt("Inserisci la tua email:");
+
+// Controllare se l'email è nella lista
+let emailFound = false;
+
+for (let i = 0; i < emailList.length; i++) {
+    if (emailList[i] === userEmail) {
+        emailFound = true;
+        break;
+    }
+}
