@@ -21,3 +21,10 @@ for (let i = 0; i < emailList.length; i++) {
         break;
     }
 }
+
+// Stampa del messaggio appropriato
+if (emailFound) {
+    console.log("Benvenuto alla festa!"); // SE l'email è presente nella lista
+} else {
+    console.log("Mi dispiace, il tuo nome non è in lista."); // SE l'email non è presente nella lista
+}
