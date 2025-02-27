@@ -9,4 +9,5 @@ const emailList = [
     "yoshi@gmail.com"
 ];
 
-
+// Chiedere all'utente la sua email
+const userEmail = prompt("Inserisci la tua email:");
